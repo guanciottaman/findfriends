@@ -1,16 +1,32 @@
-html {
+
+body {
     margin: 0;
     padding: 0;
 }
 
+
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 26px;
     margin: 20px;
+    padding: 20px 20px 20px 20px;
+    color: navy;
+    align-items: center;
 }
 
 .nav {
     background-color: aquamarine;
     color: aquamarine;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-size: 22px;
+    color:midnightblue;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
 }
